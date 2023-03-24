@@ -1,4 +1,4 @@
-# Readme file for PID_car_controll Python code
+# Readme file for PID_robot_control.py Python code
 
 This Python code contains a class called mpu_9250 which initializes and reads data from the MPU-9250 sensor. The MPU-9250 is a System in Package (SiP) that combines a 3-axis gyroscope, 3-axis accelerometer, 3-axis magnetometer, and a Digital Motion Processor (DMP) in a small package. The MPU-9250 communicates with the Raspberry Pi via the I2C bus.
 ## Prerequisites
