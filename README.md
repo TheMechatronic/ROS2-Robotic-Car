@@ -13,6 +13,8 @@ The following Python modules need to be installed to run this code:
     signal
     sys
 
+The code is written to be used on a Raspberry Pi board with a MPU-9250 IMU module
+
 ## MPU_9250 Class Functions
 ### mpu_9250()
 
