@@ -1,8 +1,13 @@
-import RPi.GPIO as GPIO          
-import time
+# Import required for the wheel_controller:
+import RPi.GPIO as GPIO      
+# Imports required for the mpu_9250:
 import smbus
+# Imports required for controller:
 import math
+# Imports required by all classes:
+import time
 import threading
+# Imports for propper shutdown handeling:
 import signal
 import sys
 
