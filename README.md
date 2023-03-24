@@ -28,7 +28,7 @@ The read_raw_bits function reads the raw accelerometer and gyroscope values from
 ### mpu6050_conv()
 
 The mpu6050_conv function reads the raw accelerometer and gyroscope values using read_raw_bits and converts these values to acceleration in g and gyro degrees per second (dps).
-## Usage
+### Usage
 
 To use this code, create an instance of the mpu_9250 class and call the mpu6050_conv function to read the sensor values. For example:
 
