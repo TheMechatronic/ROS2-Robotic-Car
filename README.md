@@ -30,7 +30,7 @@ The mpu6050_conv function reads the raw accelerometer and gyroscope values using
 
 To use this code, create an instance of the mpu_9250 class and call the mpu6050_conv function to read the sensor values. For example:
 
-``` [python]
+```python
 sensor = mpu_9250()
 while True:
     a_x, a_y, a_z, w_x, w_y, w_z = sensor.mpu6050_conv()
